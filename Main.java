@@ -72,6 +72,5 @@ public class  Main {
         albatross.printFlying();
         falcon.printFlying();
 
-
     }
 }
