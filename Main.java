@@ -25,6 +25,5 @@ public class  Main {
         flying albatross = new flying("Павел", 45, "Антарктида", "полет, ходьба, плавание");
         flying falcon = new flying("Ясень", 16, "Тайга", "полет, ходьба");
 
-
     }
 }
