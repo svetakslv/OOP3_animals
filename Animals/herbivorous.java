@@ -1,14 +1,34 @@
 package Animals;
 
-public class herbivorous extends Mammals{
+public class herbivorous extends Mammals {
     private final String typeOfFood;
 
     public herbivorous(String name, int age, String livingEnvironment, int speedOfMovement, String typeOfFood) {
         super(name, age, livingEnvironment, speedOfMovement);
-        this.typeOfFood = typeOfFood;
+        if (typeOfFood == null) {
+            this.typeOfFood = "трава";
+        } else {
+            this.typeOfFood = typeOfFood;
+        }
     }
 
-    public void graze() {
+    public String getTypeOfFood() {
+        return typeOfFood;
+    }
 
+
+    public void graze() {
+        System.out.println("Я пасусь");
+    }
+
+    @Override
+    public String toString() {
+        return "отряд - травоядные{" +
+                "тип пищи: " + typeOfFood + ", скорость передвижения: " + speedOfMovement + ", возраст" + age + '}';
+    }
+
+    public void printHerbivorous() {
+        System.out.println("Класс: травоядное. Кличка животного: " + getName() + ", возраст: " + getAge() +
+                ",место обитания: " + getLivingEnvironment() + " ,скорость передвижения: " + getSpeedOfMovement() + ",тип питания: " + getTypeOfFood());
     }
 }

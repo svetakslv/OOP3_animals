@@ -5,10 +5,20 @@ public class Birds extends Animals{
 
     public Birds(String name, int age, String livingEnvironment) {
         super(name, age);
-        this.livingEnvironment = livingEnvironment;
+        if (livingEnvironment.isEmpty()) {
+            this.livingEnvironment = "Зоопарк";
+        }else {
+            this.livingEnvironment = livingEnvironment;
+        }
     }
 
     public void hunt() {
+        System.out.println("Я охочусь");
+    }
 
+    @Override
+    public String toString() {
+        return "Птицы" +
+                "место обитания: " + livingEnvironment +", возраст: " + age;
     }
 }
