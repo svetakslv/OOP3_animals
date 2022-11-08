@@ -71,6 +71,5 @@ public class  Main {
         seagull.printFlying();
         albatross.printFlying();
         falcon.printFlying();
-
     }
 }
