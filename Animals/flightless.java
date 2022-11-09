@@ -1,6 +1,6 @@
 package Animals;
 
-public class flightless extends Birds{
+public class flightless extends birds{
     private final String typeOfMovement;
 
     public flightless(String name, int age, String livingEnvironment, String typeOfMovement) {

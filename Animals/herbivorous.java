@@ -1,6 +1,6 @@
 package Animals;
 
-public class herbivorous extends Mammals {
+public class herbivorous extends mammals {
     private final String typeOfFood;
 
     public herbivorous(String name, int age, String livingEnvironment, int speedOfMovement, String typeOfFood) {

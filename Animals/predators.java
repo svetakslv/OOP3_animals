@@ -1,6 +1,6 @@
 package Animals;
 
-public class predators extends Mammals{
+public class predators extends mammals{
     private final String typeOfFood;
 
     public predators(String name, int age, String livingEnvironment, int speedOfMovement, String typeOfFood) {

@@ -2,11 +2,11 @@ package Animals;
 
 import java.util.Objects;
 
-public class Animals {
+public class animals {
     private String name;
     public int age;
 
-    public Animals(String name, int age) {
+    public animals(String name, int age) {
         this.name = name;
         if (age == 0) {
             this.age = 0;
@@ -44,8 +44,8 @@ public class Animals {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Animals)) return false;
-        Animals animals = (Animals) o;
+        if (!(o instanceof animals)) return false;
+        animals animals = (animals) o;
         return Objects.equals(name, animals.name);
     }
 

@@ -38,8 +38,8 @@ public class  Main {
         predators tiger = new predators("Шерхан", 15, "Индонезия", 65, "копытные");
         predators bear = new predators("Балу", 24, "Аляска", 60, "всеядный");
 
-        Amphibians frog = new Amphibians("Чарльз", 1, "Азия");
-        Amphibians snake = new Amphibians("Иван", 2, "Россия");
+        amphibians frog = new amphibians("Чарльз", 1, "Азия");
+        amphibians snake = new amphibians("Иван", 2, "Россия");
 
         flightless peacock = new flightless("Франциск", 3, "Шри-Ланка", "ходьба");
         flightless penguin = new flightless("Шкипер", 30, "Новая Зеландия", "плвание, ходьба");
