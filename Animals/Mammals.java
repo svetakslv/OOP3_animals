@@ -1,10 +1,10 @@
 package Animals;
 
-public class mammals extends animals{
+public class Mammals extends Animals{
     private final String livingEnvironment;
     protected int speedOfMovement;
 
-    public mammals(String name, int age, String livingEnvironment, int speedOfMovement) {
+    public Mammals(String name, int age, String livingEnvironment, int speedOfMovement) {
         super(name, age);
         if (livingEnvironment.isEmpty()) {
             this.livingEnvironment = "Зоопарк";

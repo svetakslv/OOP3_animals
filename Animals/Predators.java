@@ -1,9 +1,9 @@
 package Animals;
 
-public class predators extends mammals{
+public class Predators extends Mammals{
     private final String typeOfFood;
 
-    public predators(String name, int age, String livingEnvironment, int speedOfMovement, String typeOfFood) {
+    public Predators(String name, int age, String livingEnvironment, int speedOfMovement, String typeOfFood) {
         super(name, age, livingEnvironment, speedOfMovement);
         if (typeOfFood == null) {
             this.typeOfFood = "мясо";

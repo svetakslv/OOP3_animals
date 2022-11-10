@@ -1,9 +1,9 @@
 package Animals;
 
-public class herbivorous extends mammals {
+public class Herbivorous extends Mammals {
     private final String typeOfFood;
 
-    public herbivorous(String name, int age, String livingEnvironment, int speedOfMovement, String typeOfFood) {
+    public Herbivorous(String name, int age, String livingEnvironment, int speedOfMovement, String typeOfFood) {
         super(name, age, livingEnvironment, speedOfMovement);
         if (typeOfFood == null) {
             this.typeOfFood = "трава";

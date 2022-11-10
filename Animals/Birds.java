@@ -1,9 +1,9 @@
 package Animals;
 
-public class birds extends animals{
+public class Birds extends Animals{
     private final String livingEnvironment;
 
-    public birds(String name, int age, String livingEnvironment) {
+    public Birds(String name, int age, String livingEnvironment) {
         super(name, age);
         if (livingEnvironment.isEmpty()) {
             this.livingEnvironment = "Зоопарк";
