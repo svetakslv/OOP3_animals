@@ -30,24 +30,24 @@ public class  Main {
 
     public static void main(String[] args) {
 
-        herbivorous gazelle = new herbivorous("Эльза", 4, "Африка", 50, "трава");
-        herbivorous giraffe = new herbivorous("Мелман", 10, "Африка", 55, "акация");
-        herbivorous horse = new herbivorous("Гром", 5, "Северная Америка", 66, "трава");
+        Herbivorous gazelle = new Herbivorous("Эльза", 4, "Африка", 50, "трава");
+        Herbivorous giraffe = new Herbivorous("Мелман", 10, "Африка", 55, "акация");
+        Herbivorous horse = new Herbivorous("Гром", 5, "Северная Америка", 66, "трава");
 
-        predators hyena = new predators("Шензи", 12, "Африка", 150, "копытные, падаль");
-        predators tiger = new predators("Шерхан", 15, "Индонезия", 65, "копытные");
-        predators bear = new predators("Балу", 24, "Аляска", 60, "всеядный");
+        Predators hyena = new Predators("Шензи", 12, "Африка", 150, "копытные, падаль");
+        Predators tiger = new Predators("Шерхан", 15, "Индонезия", 65, "копытные");
+        Predators bear = new Predators("Балу", 24, "Аляска", 60, "всеядный");
 
         Amphibians frog = new Amphibians("Чарльз", 1, "Азия");
         Amphibians snake = new Amphibians("Иван", 2, "Россия");
 
-        flightless peacock = new flightless("Франциск", 3, "Шри-Ланка", "ходьба");
-        flightless penguin = new flightless("Шкипер", 30, "Новая Зеландия", "плвание, ходьба");
-        flightless dodoBird = new flightless("Йорик", 7, "Маврикий", "ходьба");
+        Flightless peacock = new Flightless("Франциск", 3, "Шри-Ланка", "ходьба");
+        Flightless penguin = new Flightless("Шкипер", 30, "Новая Зеландия", "плвание, ходьба");
+        Flightless dodoBird = new Flightless("Йорик", 7, "Маврикий", "ходьба");
 
-        flying seagull = new flying("Скаттл", 42, "Дания", "полет, ходьба, плавание");
-        flying albatross = new flying("Павел", 45, "Антарктида", "полет, ходьба, плавание");
-        flying falcon = new flying("Ясень", 16, "Тайга", "полет, ходьба");
+        Flying seagull = new Flying("Скаттл", 42, "Дания", "полет, ходьба, плавание");
+        Flying albatross = new Flying("Павел", 45, "Антарктида", "полет, ходьба, плавание");
+        Flying falcon = new Flying("Ясень", 16, "Тайга", "полет, ходьба");
 
         gazelle.printHerbivorous();
         giraffe.printHerbivorous();

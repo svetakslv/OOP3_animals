@@ -41,7 +41,7 @@ public class Mammals extends Animals{
     @Override
     public String toString() {
         return "Млекопитающие, " +
-                "место обитания: " + livingEnvironment + ", скорость передвижения: " + speedOfMovement +
+                "место обитания: " + livingEnvironment + ", скорость передвижения: " + speedOfMovement + " км/ ч" +
                 ", возраст: " + age;
     }
 

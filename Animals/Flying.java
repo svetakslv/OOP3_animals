@@ -1,31 +1,32 @@
 package Animals;
 
-public class flightless extends Birds{
+public class Flying extends Birds{
     private final String typeOfMovement;
 
-    public flightless(String name, int age, String livingEnvironment, String typeOfMovement) {
+    public Flying(String name, int age, String livingEnvironment, String typeOfMovement) {
         super(name, age, livingEnvironment);
         if (typeOfMovement == null || typeOfMovement.isEmpty()) {
-            this.typeOfMovement = "ходьба";
+            this.typeOfMovement = "полет";
         } else {
             this.typeOfMovement = typeOfMovement;
         }
     }
+
     public String getTypeOfMovement() {
         return typeOfMovement;
     }
 
-    public void walk() {
-        System.out.println("Я гуляю");
+    public void fly() {
+        System.out.println("Я летаю");
     }
 
     @Override
     public String toString() {
-        return "нелетающие птицы{" +
+        return "летающие птицы{" +
                 "способ передвижения: " + typeOfMovement + ", возраст: " + age + '}';
     }
-    public void printFlightless() {
-        System.out.println("Нелетающие птицы. Кличка животного: " + getName() + ", возраст: " + getAge() +
+    public void printFlying() {
+        System.out.println("Летающие птицы. Кличка животного: " + getName() + ", возраст: " + getAge() +
                 " ,тип передвижения: " + getTypeOfMovement());
     }
 }
